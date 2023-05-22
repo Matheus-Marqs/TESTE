@@ -1,0 +1,122 @@
+
+header {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background: linear-gradient(180deg, #226ac2 0%, #F4F4F4 80%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 500px;
+    justify-content: space-around !important;
+}
+
+.inicie {
+    margin-left: -290px;
+}
+
+header .searchbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+header .grid{
+    position: relative;
+    justify-items: center;
+    align-items: center;
+    display: fl;
+
+}
+
+.destaque-cor {
+    color: #EA686D;
+}
+
+header h1 {
+    text-transform: uppercase;
+    color: rgb(133, 21, 21);
+    letter-spacing: 3px;
+}
+
+header h4 {
+    margin-left: 100px;
+    width: 500px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300;
+    color: #2f3e77;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header p{
+    margin-left: 100px;
+    width: 500px;
+    text-align: left;
+    font-size: 55px;
+    font-weight: 600;
+    color: #2f3e77;
+}
+
+
+.fundo-togepi {
+    background-image: url(../../assets/img/yellow-toge.png);
+    background-position-x: right;
+    background-position-y:10px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+}
+
+.fundo-ivy {
+    background-image: url(../../assets/img/green-ivy.png);
+    background-position-x: right;
+    background-position-y:10px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+}
+
+.fundo-picachu {
+    background-image: url(../../assets/img/red-Pikachu.png);
+    background-position-x: right;
+    background-position-y:10px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+}
+
+form{
+    width: 430px;
+}
+
+form input{
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+    height: 44px;
+    background-color: #F8F8F8;
+    box-shadow: 0px 0px 20px #bbbbbb;
+    border: none;
+
+}
+
+form input:focus{
+    outline: none;
+}
+
+form button{
+    background-color: #EA686D;
+    box-shadow: 0px 0px 20px #EA686D;
+    border: none;
+    width: 20%;
+    height: 44px;
+    border-radius: 0 5px 5px 0;
+    color: white;
+}   
+
+.teste {
+    color: #2f3e77;
+    padding: 30px 0px 30px 55px;
+    font-size: 20px;
+    background-color: #F4F4F4;
+}
